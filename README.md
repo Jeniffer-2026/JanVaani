@@ -9,8 +9,8 @@
 ### Team Name: Code duo
 
 ### Team Members
-- Member 1: [Fathima S] - [LBSITW]
-- Member 2: [Jeniffer Jerald J N] - [LBSITW]
+- Member 1: Fathima S - LBSITW
+- Member 2: Jeniffer Jerald J N - LBSITW
 
 ### Hosted Project Link
 [mention your project hosted link here]
@@ -56,11 +56,7 @@ GPS-based location tagging of complaints
 - Libraries used: firebase
 - Tools used:  VS Code, Git, node.js
 
-
----
-
 ## Features
-
 List the key features of your project:
 - Feature 1: single complaint portal(one app/web portal for all civic complaints)
 - Feature 2: AI-Based Auto Routing(AI automatically classifies complaints and forwards them to the correct department)
@@ -68,8 +64,6 @@ List the key features of your project:
 - Feature 4: Real-Time Tracking(Citizens can track complaint status (Registered-> In progress->Resolved).
 - Feature 5: Smart Analytics Dashboard(Government officials view trends,department performance,and bottlenecks)
 - Feature 6:Citizen Feedback and rating.
-
----
 
 ## Implementation
 JanVaani is a React.js web app with Firebase backend.
@@ -100,27 +94,16 @@ npm install firebase react-router-dom]
 
 #### Run
 [npm start]
-```
 
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
 
 ## Project Documentation-JanVaani
 
 ### For Software:
 
 #### Screenshots (Add at least 3)
+![WhatsApp Image 2026-02-14 at 6 09 30 AM (1)](https://github.com/user-attachments/assets/72b4a16c-1a40-4e83-92e9-d46c9c4b3b65)
+*Add caption explaining what this shows*![WhatsApp Image 2026-02-14 at 7 44 02 AM](https://github.com/user-attachments/assets/6d2635f3-b1c4-48f5-9096-6055200aa9d9)
 
-![Screenshot1] ![WhatsApp Image 2026-02-14 at 6 09 30 AM](https://github.com/user-attachments/assets/0663c7db-1366-4030-bfeb-a529ffa548a0)
-
-*Add caption explaining what this shows*
 
 
 ![Screenshot2](Add screenshot 2 here with proper name)
@@ -133,40 +116,16 @@ npm install firebase react-router-dom]
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+Architecture Diagram--![WhatsApp Image 2026-02-14 at 7 44 02 AM](https://github.com/user-attachments/assets/6d2635f3-b1c4-48f5-9096-6055200aa9d9)
+
+
+
 
 **Application Workflow:**
 
 ![Workflow](docs/workflow.png)
 *Add caption explaining your workflow*
 
----
-
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-#### Build Photos
-
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
----
 
 ## Additional Documentation
 
@@ -248,56 +207,8 @@ flutter build apk
 flutter build ios
 # or
 xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-```
 
----
 
-### For Hardware Projects:
-
-#### Bill of Materials (BOM)
-
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
-
-**Total Estimated Cost:** ₹[Amount]
-
-#### Assembly Instructions
-
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
-
----
 
 ### For Scripts/CLI Tools:
 -
@@ -398,10 +309,22 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
 
----
+https://github.com/user-attachments/assets/279589ee-71cf-4434-a334-125d37359fc8
+
+Brief Description:
+
+Citizens can submit complaints through a simple form.
+
+The system uses AI to analyze and classify the complaint automatically.
+
+Complaints are routed to the correct department based on content.
+
+It includes SLA (Service Level Agreement) monitoring to ensure timely resolution.
+
+Users can track the status of their complaint in real time.
+
+Administrators can view complaints through a dashboard interface.
 
 ## AI Tools Used (Optional - For Transparency Bonus)
 
@@ -426,14 +349,11 @@ If you used AI tools during development, document them here for transparency:
 - Integration and testing
 - UI/UX design decisions
 
-
----
-
 ## Team Contributions
 
-- [Jeniffer Jerald JN]:  Frontend development, API integration.
-- [Fathima S]:  Backend development, Database design.
-- [Jenifer and Fathima ]:  UI/UX design, Testing, Documentation, etc.]
+- Jeniffer Jerald JN:  Frontend development, API integration.
+- Fathima S:  Backend development, Database design.
+- Jeniffer and Fathima :  UI/UX design, Testing, Documentation, etc.
 
 
 Made with ❤️ at TinkerHub
