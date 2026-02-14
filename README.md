@@ -2,69 +2,104 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# project name:JanVaani(The Voice of People)🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Code duo
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Fathima S] - [LBSITW]
+- Member 2: [Jeniffer Jerald J N] - [LBSITW]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+unified citizens grievance tracking platform.
 
 ### The Problem statement
-[What problem are you solving?]
-
+Citizens Complaints are currently scattered across multiple departments like the Municipal Corporation, Kerala Water Authority, and KSEB, resulting in delays.
+There is no centralized tracking system, making it difficult for citizens to know the status of their complaints.
+Lack of accountability and SLA enforcement causes prolonged resolution times.
+Citizens face poor transparency, repeated follow-ups, and frustration.
+This fragmentation leads to inefficient governance, unresolved civic issues, and low public trust.
 ### The Solution
-[How are you solving it?]
-
----
+JanVaani, An AI-powered unified grievance platform that allows citizens to register and track complaints across departments such as Municipal Corporation of Thiruvananthapuram, Kerala Water Authority, and Kerala State Electricity Board, from a single digital interface, with strict SLA enforcement.
 
 ## Technical Details
+Frontend
+Framework: React.js
+Routing: react-router-dom for multi-page navigation
+UI: HTML, CSS, simple responsive design, optional Tailwind/Material UI
+Features:
+Aadhaar-based login
+Complaint registration (text + voice + photo/video)
+Real-time complaint tracking
+AI / Smart Routing
+NLP Classifier to detect complaint category and department:
+Example: “No water supply” → Kerala Water Authority
+Example: “Streetlight not working” → Municipal Corporation
+Priority Levels set automatically based on urgency.
+Dashboard & Analytics
+Citizen Dashboard: View complaint status, assigned officer, estimated resolution
+Department Dashboard: View pending complaints, SLA adherence, performance stats
+Public Transparency: Heatmaps, complaint statistics, average resolution times
+Optional Features
+GPS-based location tagging of complaints
 
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used:  JavaScript,HTML
+- Frameworks used: React.js
+- Libraries used: firebase
+- Tools used:  VS Code, Git, node.js
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: single complaint portal(one app/web portal for all civic complaints)
+- Feature 2: AI-Based Auto Routing(AI automatically classifies complaints and forwards them to the correct department)
+- Feature 3: SLA Enforcement Engine(Time-bound resolution with automated reminders,escalation,and penalties for delays.)
+- Feature 4: Real-Time Tracking(Citizens can track complaint status (Registered-> In progress->Resolved).
+- Feature 5: Smart Analytics Dashboard(Government officials view trends,department performance,and bottlenecks)
+- Feature 6:Citizen Feedback and rating.
 
 ---
 
 ## Implementation
+JanVaani is a React.js web app with Firebase backend.
+Citizens login via Aadhaar and submit complaints with text, voice, photo/video, and GPS location.
+AI/keyword-based routing assigns complaints to the correct department automatically.
+SLA timers enforce resolution deadlines with automatic escalation if delayed.
+Dashboards provide real-time tracking, analytics, and heatmaps for citizens and department heads.
+Tech Stack: React.js, Firebase (Auth, Firestore, Storage), Browser APIs, optional Tailwind/Material UI.
 
 ### For Software:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+[# Install Node.js and npm
+node -v
+npm -v
+
+# Install Git (optional for version control)
+git --version
+
+# Create and setup React app
+npx create-react-app janvaani
+cd janvaani
+
+# Install required packages
+npm install firebase react-router-dom]
 ```
 
 #### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
+[npm start]
 ```
 
 ### For Hardware:
@@ -77,14 +112,16 @@ List the key features of your project:
 
 ---
 
-## Project Documentation
+## Project Documentation-JanVaani
 
 ### For Software:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1] ![WhatsApp Image 2026-02-14 at 6 09 30 AM](https://github.com/user-attachments/assets/0663c7db-1366-4030-bfeb-a529ffa548a0)
+
 *Add caption explaining what this shows*
+
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
@@ -263,7 +300,7 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 ---
 
 ### For Scripts/CLI Tools:
-
+-
 #### Command Reference
 
 **Basic Usage:**
@@ -361,12 +398,8 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
-
+[Add your demo video link here - 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
-
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
 
 ---
 
@@ -374,10 +407,9 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** ChatGPT
 
-**Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
+**Purpose:** 
 - Example: "Debugging assistance for async functions"
 - Example: "Code review and optimization suggestions"
 
@@ -386,7 +418,7 @@ If you used AI tools during development, document them here for transparency:
 - "Debug this async function that's causing race conditions"
 - "Optimize this database query for better performance"
 
-**Percentage of AI-generated code:** [Approximately X%]
+**Percentage of AI-generated code:* 60%
 
 **Human Contributions:**
 - Architecture design and planning
@@ -394,27 +426,14 @@ If you used AI tools during development, document them here for transparency:
 - Integration and testing
 - UI/UX design decisions
 
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
 
 ---
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- [Jeniffer Jerald JN]:  Frontend development, API integration.
+- [Fathima S]:  Backend development, Database design.
+- [Jenifer and Fathima ]:  UI/UX design, Testing, Documentation, etc.]
 
----
-
-## License
-
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
-
-**Common License Options:**
-- MIT License (Permissive, widely used)
-- Apache 2.0 (Permissive with patent grant)
-- GPL v3 (Copyleft, requires derivative works to be open source)
-
----
 
 Made with ❤️ at TinkerHub
