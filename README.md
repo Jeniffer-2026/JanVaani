@@ -2,10 +2,9 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# project name:JanVaani(The Voice of People)🎯
+# project name:JanVaani(The Voice of Citizen)🎯
 
 ## Basic Details
-
 ### Team Name: Code duo
 
 ### Team Members
@@ -77,7 +76,7 @@ Tech Stack: React.js, Firebase (Auth, Firestore, Storage), Browser APIs, optiona
 
 #### Installation
 ```bash
-[# Install Node.js and npm
+# Install Node.js and npm
 node -v
 npm -v
 
@@ -102,215 +101,27 @@ npm install firebase react-router-dom]
 
 #### Screenshots (Add at least 3)
 ![WhatsApp Image 2026-02-14 at 6 09 30 AM (1)](https://github.com/user-attachments/assets/72b4a16c-1a40-4e83-92e9-d46c9c4b3b65)
-*Add caption explaining what this shows*![WhatsApp Image 2026-02-14 at 7 44 02 AM](https://github.com/user-attachments/assets/6d2635f3-b1c4-48f5-9096-6055200aa9d9)
+The landing page welcomes users and provides options to login/register. Citizens can submit new complaints, track existing complaints, and view notifications. It highlights AI-based complaint routing, real-time updates, and department-wise SLA enforcement. The interface is simple, user-friendly, and provides quick access to all grievance-related actions.
 
+### Screenshots
+![WhatsApp Image 2026-02-14 at 6 09 30 AM (4)](https://github.com/user-attachments/assets/0f8d3867-7f54-48e5-9ad0-ef8f8a480abb)
 
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+### Screenshots
+![WhatsApp Image 2026-02-14 at 6 09 31 AM (2)](https://github.com/user-attachments/assets/864f9b7d-bea4-47c3-9634-066a3df32469)
 
 #### Diagrams
 
 **System Architecture:**
 
-Architecture Diagram--![WhatsApp Image 2026-02-14 at 7 44 02 AM](https://github.com/user-attachments/assets/6d2635f3-b1c4-48f5-9096-6055200aa9d9)
+Architecture Diagram--![WhatsApp Image 2026-02-14 at 4 39 54 AM (3)](https://github.com/user-attachments/assets/820645a5-87c7-4fde-9194-ac1f4610e203)
 
-
-
-
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
-
-
-## Additional Documentation
-
-### For Web Projects with Backend:
-
-#### API Documentation
-
-**Base URL:** `https://api.yourproject.com`
-
-##### Endpoints
-
-**GET /api/endpoint**
-- **Description:** [What it does]
-- **Parameters:**
-  - `param1` (string): [Description]
-  - `param2` (integer): [Description]
-- **Response:**
-```json
-{
-  "status": "success",
-  "data": {}
-}
-```
-
-**POST /api/endpoint**
-- **Description:** [What it does]
-- **Request Body:**
-```json
-{
-  "field1": "value1",
-  "field2": "value2"
-}
-```
-- **Response:**
-```json
-{
-  "status": "success",
-  "message": "Operation completed"
-}
-```
-
-[Add more endpoints as needed...]
-
----
-
-### For Mobile Apps:
-
-#### App Flow Diagram
-
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
-
-#### Installation Guide
-
-**For Android (APK):**
-1. Download the APK from [Release Link]
-2. Enable "Install from Unknown Sources" in your device settings:
-   - Go to Settings > Security
-   - Enable "Unknown Sources"
-3. Open the downloaded APK file
-4. Follow the installation prompts
-5. Open the app and enjoy!
-
-**For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
-
-**Building from Source:**
-```bash
-# For Android
-flutter build apk
-# or
-./gradlew assembleDebug
-
-# For iOS
-flutter build ios
-# or
-xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-
-
-
-### For Scripts/CLI Tools:
--
-#### Command Reference
-
-**Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
-
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
-
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
-
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
-
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
-python script.py -o output.txt input.txt
-
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
-
-#### Demo Output
-
-**Example 1: Basic Processing**
-
-**Input:**
-```
-This is a sample input file
-with multiple lines of text
-for demonstration purposes
-```
-
-**Command:**
-```bash
-python script.py sample.txt
-```
-
-**Output:**
-```
-Processing: sample.txt
-Lines processed: 3
-Characters counted: 86
-Status: Success
-Output saved to: output.txt
-```
-
-**Example 2: Advanced Usage**
-
-**Input:**
-```json
-{
-  "name": "test",
-  "value": 123
-}
-```
-
-**Command:**
-```bash
-python script.py -v --format json data.json
-```
-
-**Output:**
-```
-[VERBOSE] Loading configuration...
-[VERBOSE] Parsing JSON input...
-[VERBOSE] Processing data...
-{
-  "status": "success",
-  "processed": true,
-  "result": {
-    "name": "test",
-    "value": 123,
-    "timestamp": "2024-02-07T10:30:00"
-  }
-}
-[VERBOSE] Operation completed in 0.23s
-```
-
----
+**Application Workflow:**![WhatsApp Image 2026-02-14 at 7 44 02 AM](https://github.com/user-attachments/assets/6d2635f3-b1c4-48f5-9096-6055200aa9d9)
 
 ## Project Demo
 
 ### Video
 
-https://github.com/user-attachments/assets/279589ee-71cf-4434-a334-125d37359fc8
+https://github.com/user-attachments/assets/1e9cae2f-8845-4841-8f4b-34b07cc9d1f9
 
 Brief Description:
 
